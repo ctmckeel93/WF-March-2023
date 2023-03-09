@@ -1,0 +1,3 @@
+. -> represents your current folder 
+.. -> folder that your current folder is in
+/, ~ -> Root of computer

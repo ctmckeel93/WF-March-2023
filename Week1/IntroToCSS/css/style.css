@@ -1,0 +1,40 @@
+* {
+    color: red;
+    margin: 0;
+}
+
+body {
+    border: solid white 2px;
+    background-color: black;
+}
+
+div.container {
+    margin: 0 auto;
+    min-height: 600px;
+    width: 50%;
+    background-color: beige;
+}
+
+p {
+    color: aqua;
+}
+
+h1 span {
+    color: blue;
+}
+
+.purple {
+    color: rebeccapurple;
+}
+
+p.big {
+   font-size: 24pt; 
+}
+
+#first-paragraph {
+    margin: 75px;
+    font-size: 30pt;
+    text-align:center;
+    border: solid red 10px;
+    padding: 20px;
+}

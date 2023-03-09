@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container {
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+div.block {
+    display: inline-block;
+    margin: 10px 30px;
+    width: 150px;
+    height: 150px; 
+    background-color: black;
+    vertical-align: top;
+}
+
+
+div#bigger {
+    height: 500px;
+}
+
+#bottom {
+    vertical-align: bottom;
+}
+
+p {
+    color: green;
+}
+
+
