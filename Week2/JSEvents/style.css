@@ -1,0 +1,9 @@
+.big { 
+    height: 300px;
+    width: 500px;
+}
+
+.small {
+    height: 30px;
+    width: 75px;
+}

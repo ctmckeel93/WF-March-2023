@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js" defer ></script> -->
+</head>
+<body>
+    <button class="big" onclick="clickButton('Welcome to my website')">Click me</button>
+    <p onmouseover="changeText(this)" onmouseout="changeTextBack(this)" onclick="alert('You clicked this wonderful text')">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi est fuga non ipsum, officiis, enim quod optio eos, sapiente exercitationem dolores aspernatur temporibus doloribus recusandae. Et voluptatum ut possimus iste!
+    Harum ullam in iusto sequi minima! Sequi placeat amet tenetur vitae inventore sed, id totam quod. Commodi aliquam quasi incidunt quo itaque. Dolore dolores aperiam repellendus numquam eos consectetur alias.</p>
+    <form action="#">
+        <label for="favorite-pokemon">Favorite Pokemon</label>
+        <select onchange="alert(`Oh my goooooosh! I love ${this.value}`)">
+            <option >Gengar</option>
+            <option>Bulbasaur</option>
+            <option>Augumon</option>
+            <option>Mew</option>
+            <option>Mew</option>
+            <option>Scyther</option>
+            <option>Psyduck</option>
+            <option>Gandolf</option>
+        </select>
+        <input oninput="console.log(this.value)" type="text">
+    </form>
+    <img onmouseover="dogPic(this)" onmouseout="catPic(this)" height="300px" src="https://imgs.search.brave.com/ACZO_o96TZwY_7jZ6YowxJrSfB8KKCVobrpHqvFqypY/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMubWVkaWNhbGRh/aWx5LmNvbS9zaXRl/cy9tZWRpY2FsZGFp/bHkuY29tL2ZpbGVz/LzIwMTMvMDgvMDQv/MC82Mi82MjU5Lmpw/Zw" alt="">
+    <script src="script.js"></script>
+</body>
+</html>
