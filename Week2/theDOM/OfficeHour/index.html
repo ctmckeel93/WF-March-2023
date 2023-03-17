@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <h1>Exercise</h1>
+            </li>
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="col col-left">
+            <div>
+                <h2>First box</h2>
+                <div>
+                    <div class="circle"></div>
+                    <div onclick="changeBG(this, 'yellow')" class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div>
+                <h2>Second Box</h2>
+                <div>
+                    <div class="circle"></div>
+                    <div onclick="changeBG(this, 'green')" class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-right">
+            <div>
+                <h2>Third Box</h2>
+                <div>
+                    <div class="circle"></div>
+                    <div onclick="changeBG(this, 'white')" class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div>
+                <h2>Fourth Box</h2>
+                <div>
+                    <div class="circle"></div>
+                    <div onclick="changeBG(this, 'blue')" class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

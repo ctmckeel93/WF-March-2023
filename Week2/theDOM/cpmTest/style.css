@@ -1,0 +1,36 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color:black;
+}
+
+div.container {
+    /* background-color: beige; */
+    margin: 20px auto;
+    width: 1000px;
+    height: 800px;
+    border: 1px solid white;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+textarea {
+    padding: 20px;
+    font-size: 12pt;
+    background: beige;
+    color: black;
+}

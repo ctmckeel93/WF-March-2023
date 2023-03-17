@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating the DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Query Selectors</h1>
+    <div class="container">
+        <button onclick="darkMode(this)" id="dark-mode">Dark Mode</button>
+        <button onclick="lightMode(this)" id="light-mode">Light Mode</button>
+        <img id="target-pic" src="images/puppy-1.png" alt="puppy smile">
+        <form action="#">
+            <select onchange="changePic(this)">
+                <option value="puppy-1.png">Original</option>
+                <option value="puppy-2.png">Golden Retriever</option>
+                <option value="puppy-3.png">German Shephard</option>
+                <option value="puppy-4.png">Blue Heeler</option>
+                <option value="puppy-5.png">Cocker Spaniel</option>
+            </select>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
