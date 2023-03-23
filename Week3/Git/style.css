@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container {
+    width: 1000px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+}
+
+p {
+    color: blue;
+}
+
+button {
+    /* visibility: hidden; */
+}
