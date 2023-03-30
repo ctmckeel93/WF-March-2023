@@ -1,0 +1,30 @@
+h1 {
+    text-align:center;
+    color: red; 
+}
+
+div.container {
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 120px;;
+    height: 200px;
+    border: 1px solid black;
+}
+
+div.box {
+    height: 50px;
+    width: 50px;
+    background-color:green;
+}
+/* @media only screen and (max-width: 480px) {
+    h1 {
+        color: purple;
+    }
+
+    div.container {
+        flex-direction: column;
+    }
+} */
